@@ -276,43 +276,8 @@ a {
   width: 100% !important;
 }
 
-.lineHeight28px {
-  line-height: 28px !important;
-}
-
-.lineHeight32px {
-  line-height: 32px !important;
-}
-
-.lineHeight40px {
-  line-height: 40px !important;
-}
-
-/* 更改 elemtui table 的默认样式 */
-.el-table td,
-.el-table th {
-  padding: 10px 0;
-}
-
-.has-gutter th,
-.el-table__fixed-header-wrapper tr th {
-  background: #0199db;
-  color: #fff;
-  /* color: #47a1fc; */
-}
-
 .content {
   padding: 20px 5%;
-}
-
-.v-step {
-  z-index: 9999;
-}
-
-.contentHeader {
-  line-height: 40px;
-  border-bottom: 1px solid #aaa;
-  padding-bottom: 10px;
 }
 
 .warnColor {
@@ -327,42 +292,11 @@ a {
   color: #F56C6C;
 }
 
-.pageWrap {
-  position: relative;
-  min-height: 500px;
-  background: #fff;
-  padding: 20px 50px;
-}
-
-.positionClass {
-  position: absolute;
-  bottom: 25px;
-  right: 10%
-}
-
-/* 修改 elementUI 弹框的头部样式 */
-.el-dialog__header .el-dialog__title {
-  display: block;
-  font-size: 20px;
-  border-bottom: 1px solid #bbbbbb;
-  padding-bottom: 10px;
-  font-weight: bold;
-}
-
-.el-dialog__body {
-  padding: 10px 20px 20px;
-}
-
 /* 文字超出部分显示省略号 */
 .overHide {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.fontcolor {
-  /*提示语:字的颜色*/
-  color: #ff9800;
 }
 
 .contain {
@@ -371,66 +305,3 @@ a {
   display: inline-block;
   padding: 0 10%;
 }
-
-/* 自定义table样式 */
-.customTable {
-  width: 100%;
-  font-size: 14px;
-  border-spacing: 0;
-  text-align: center;
-  border: 1px solid #EBEEF5;
-  border-bottom: none;
-  border-right: none;
-}
-
-.customTable thead {
-  background: rgba(68, 81, 176, 0.44);
-  color: #000;
-}
-
-.customTable tr th,
-.customTable tr td {
-  padding: 4px 5px;
-  border-right: 1px solid #EBEEF5;
-  border-bottom: 1px solid #EBEEF5;
-  line-height: 23px;
-}
-
-/* 表格背景色 */
-.customTable .customTableColor {
-  background: rgba(68, 81, 176, 0.44);
-}
-
-.tableContent {
-  border: 1px solid #EBEEF5;
-  border-top: none;
-  border-bottom: none;
-  box-sizing: border-box;
-}
-
-/* table表格无数据样式 */
-.emptyIcon {
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 80px;
-  height: auto;
-  content: url(../../assets/img/file.png);
-}
-
-.emptyStyle {
-  line-height: normal;
-  margin-bottom: 50px;
-}
-
-/* 修改 element-ui 的 form 表单组件的间距 */
-  .el-form-item {
-    margin-bottom: 10px;
-  }
-  .el-form--label-top .el-form-item__label {
-    padding: 0;
-  }
-
-/* input框添加外阴影 */
- .el-input__inner:focus{
-  box-shadow: 0 0 3px 0 #409EFF;
- }
